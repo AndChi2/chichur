@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chichur</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/linea/styles.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/skins/tomato.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<header class="main_head parallax-window" data-parallax="scroll" data-image-src="img/bg002.jpg" data-z-index="1" data-posation="center center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="logo_container">
+						<svg
+						xmlns="http://www.w3.org/2000/svg"
+   						viewBox="0 0 223.90953 223.98473"
+   						version="1.1"
+   						id="svg2">
+						<path
+						id="path3338"
+     					d="M 95.452785,223.19513 C 50.285139,216.01705 14.971951,183.99519 3.016161,139.37394 c -4.021548,-15.00917 -4.021548,-39.823754 0,-54.832924 10.91465,-40.735521 40.769753,-70.61387 81.438604,-81.5020167 15.13482,-4.051999 39.865175,-4.051999 54.999995,0 40.66885,10.8881467 70.52396,40.7664957 81.43861,81.5020167 4.02154,15.00917 4.02154,39.823754 0,54.832924 -10.88868,40.63859 -40.79606,70.70702 -80.85096,81.28633 -11.39859,3.0106 -33.63996,4.27498 -44.589625,2.53486 z m 45.028235,-7.4313 c 29.75033,-8.499 53.99721,-28.83452 68.1924,-57.19199 7.90698,-15.79562 10.0992,-25.91416 10.0992,-46.61436 0,-15.023524 -0.47816,-19.791564 -2.79432,-27.864363 C 207.24125,53.640931 187.15221,29.546942 158.56913,15.238823 142.7735,7.3318523 132.65496,5.1396303 111.95476,5.1396303 c -15.023515,0 -19.791555,0.478154 -27.864354,2.794324 C 47.083967,18.551489 18.548777,47.086679 7.931242,84.093117 c -4.031177,14.050299 -4.031177,41.678423 0,55.728723 11.672069,40.68191 44.866924,70.84955 86.312093,78.44083 10.008575,1.83321 35.988285,0.42918 46.237685,-2.49884 z m -5.10816,-11.34864 c -20.77905,-5.19467 -32.41471,-24.58455 -30.60418,-50.9994 0.82701,-12.06589 5.0049,-24.27913 12.94171,-37.83261 9.97942,-17.041544 22.84499,-28.101154 39.03424,-33.554911 10.71303,-3.608959 19.8877,-3.302203 32.49656,1.086527 5.72629,1.993131 10.579,3.813731 10.78379,4.04578 0.2048,0.23204 -0.67402,5.4844 -1.95292,11.6719 -1.27892,6.187504 -2.33474,13.640634 -2.34629,16.562504 -0.0206,5.2341 -0.0856,5.3125 -4.396,5.3125 l -4.375,0 0,-10.68708 c 0,-12.187454 -1.79844,-16.989534 -7.45909,-19.916764 -8.05985,-4.167914 -21.64331,-0.74794 -31.53921,7.94077 -10.82973,9.508634 -21.31683,32.063934 -23.32334,50.163074 -3.03401,27.36737 6.72823,46.25 23.91106,46.25 6.58789,0 16.59662,-5.76365 23.11017,-13.30826 6.54697,-7.58334 10.63344,-8.58625 11.30687,-2.77498 0.29374,2.53473 -1.19878,4.99863 -6.48986,10.71361 -11.59901,12.52833 -27.93094,18.61918 -41.09851,15.32734 z M 18.204765,148.59 c -4.924331,-1.75991 -6.579909,-8.62405 -2.954483,-12.24947 1.66959,-1.66959 3.513,-1.88836 10.030472,-1.1904 7.308253,0.78265 8.38453,0.57821 12.699885,-2.41233 7.020985,-4.86555 16.893489,-17.51475 37.874021,-48.5263 18.783605,-27.76425 28.71367,-41.139208 37.18056,-50.07906 l 4.45139,-4.700037 -6.20342,0.741932 c -19.052305,2.278662 -24.95495,4.40652 -29.632321,10.68223 -2.644158,3.547711 -2.990359,6.651286 -1.55085,13.902831 1.176471,5.92649 -0.759803,8.44808 -6.487093,8.44808 -3.728556,0 -4.526955,-0.577337 -6.141232,-4.440849 -3.660912,-8.761793 1.7593,-21.84412 11.648851,-28.115888 8.26883,-5.243937 15.64679,-7.334352 32.365105,-9.170084 8.76888,-0.962855 16.58216,-2.529913 19.09083,-3.828923 l 4.24672,-2.198986 -0.84804,4.814865 c -1.90862,10.836499 -5.91748,38.735699 -8.77445,61.064865 l -3.03876,23.750004 -6.83174,11.82936 c -5.37139,9.30074 -7.5845,12.03069 -10.35326,12.77118 -1.93684,0.51798 -3.75992,0.7034 -4.05129,0.41202 -0.29138,-0.29137 0.62521,-5.19465 2.03684,-10.89616 1.41163,-5.70153 2.93682,-12.75702 3.38931,-15.6789 l 0.82271,-5.312504 -14.797385,0.002 -14.79737,0.002 -3.743566,5.935274 c -7.115879,11.28192 -21.486193,29.70492 -27.372683,35.09228 -9.294149,8.50607 -20.368447,12.17043 -28.258751,9.3505 z M 108.83731,82.269976 c 1.05967,-8.007626 5.36586,-34.396537 6.31766,-38.715589 0.62174,-2.82118 0.11175,-2.417631 -2.72096,2.153089 -1.91735,3.09375 -8.73366,13.078679 -15.147365,22.18873 -6.41371,9.110051 -11.984851,17.406926 -12.380319,18.4375 -0.607984,1.58438 1.123795,1.87377 11.213109,1.87377 l 11.932155,0 0.78573,-5.9375 z m 21.86745,46.801414 c 0,-2.48126 2.79168,-5.51246 5.9375,-6.44692 2.25289,-0.66923 2.8125,-0.34159 2.8125,1.64653 0,4.63537 -1.43657,6.43648 -5.13373,6.43648 -2.14642,0 -3.61627,-0.66499 -3.61627,-1.63609 z"/>
+					</svg>
+				</div>
+				<button class="toggle_mnu">
+					<span class="sandwich">
+						<span class="sw-topper"></span>
+						<span class="sw-bottom"></span>
+						<span class="sw-footer"></span>
+					</span>
+				</button>
+				<nav class="top_mnu">
+					<ul>
+						<li><a href="#about">Обо мне</a></li>
+						<li><a href="#resume">Резюме</a></li>
+						<li><a href="#portfolio">Портфолио</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="top_wrapper">
+		<div class="top_descr">
+			<div class="top_centered">
+				<div class="top_text">
+					<h1>Андрей Чичур</h1>
+					<p>Web-дизайнер / Front-End разработчик</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="about" class="s_about bg_light">
+	<div class="section_header">
+		<h2>Обо мне</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Познакомимся ближе</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-push-4 animation_1">
+					<h3>Фото</h3>
+					<div class="person">
+						<a href="img/photo_3.jpg" class="popup"><img src="img/photo_3.jpg" alt="Alt" /></a>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-pull-4 animation_2">
+					<h3>Немного о себе</h3>
+					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+				</div>
+				<div class="col-md-4 animation_3 personal_last_block">
+					<h3>Персональная информация</h3>
+					<h2 class="personal_header">Александр Прокопский</h2>
+					<ul>
+						<li>Профессиональное создание сайтов: разработка дизайна, HTML верстка, посадка на CMS WordPress</li>
+						<li>День рождения: 8 февраля 1991 года</li>
+						<li>Номер телефона: +380 (44) 416-92-97</li>
+						<li>E-mail: <a href="mailto:sideroalogo8@gmail.com">sideroalogo8@gmail.com</a></li>
+						<li>Веб-сайт: <a href="http://chichur.org" target="_blank">chichur.org</a></li>
+					</ul>
+					<div class="social_wrap">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="resume" class="s_resume">
+	<div class="section_header">
+		<h2>Резюме</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Мои знания и достижения</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="resume_container">
+					<div class="col-md-6 col-sm-6 left">
+						<h3>Работа</h3>
+						<div class="resume_icon"><i class="icon-basic-case"></i></div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description">ООО "Пронькина забава"<strong>Программист</strong></div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 right">
+						<h3>Учеба</h3>
+						<div class="resume_icon"><i class="icon-basic-book-pen"></i></div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description"><strong>Программист</strong>ООО "Пронькина забава"</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description"><strong>Программист</strong>ООО "Пронькина забава"</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+						<div class="resume_item">
+							<div class="year">2008-2015</div>
+							<div class="resume_description"><strong>Программист</strong>ООО "Пронькина забава"</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="portfolio" class="s_portfolio bg_dark">
+	<div class="section_header">
+		<h2>Портфолио</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Мои последние работы</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="filter_div controls">
+					<ul>
+						<li class="filter active" data-filter="all">Все работы</li>
+						<li class="filter" data-filter=".category-1">Сайты</li>
+						<li class="filter" data-filter=".category-2">Айдентика</li>
+						<li class="filter" data-filter=".category-3">Логотипы</li>
+					</ul>
+				</div>
+				<div id="portfolio_grid">
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/1.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/1.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/4.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/4.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/2.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/2.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/3.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/3.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/4.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/4.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-3">
+						<img src="img/portfolio-images/5.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/5.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-3">
+						<img src="img/portfolio-images/6.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/6.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/1.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h3>Заголовок работы</h3>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/1.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="contacts" class="s_contacts bg_light">
+	<div class="section_header">
+		<h2>Контакты</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Оставьте ваше сообщение</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="contact_box">
+						<div class="contacts_icon icon-basic-geolocalize-05"></div>
+						<h3>Адрес:</h3>
+						<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+					</div>
+					<div class="contact_box">
+						<div class="contacts_icon icon-basic-smartphone"></div>
+						<h3>Телефон:</h3>
+						<p>+380 (44) 416-92-97</p>
+					</div>
+					<div class="contact_box">
+						<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+						<h3>Веб-сайт:</h3>
+						<p><a href="http://chichur.org" target="_blank">chichur.org</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<form action="http://formspree.io/sideroalogo8@gmail.com" class="main_form" novalidate target="_blank" method="post">
+						<label class="form-group">
+							<span class="color_element">*</span> Ваше имя:
+							<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required>
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Ваш E-mail:
+							<input type="email" name="email" placeholder="Ваш E-mail" data-validation-required-message="Не корректно введен E-mail" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Ваше сообщение:
+							<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение" required></textarea>
+							<span class="help-block text-danger"></span>
+						</label>
+						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="main_footer bg_dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				&copy; 2016 Андрей Чичур
+				<div class="social_wrap">
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/mixitup/mixitup.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
